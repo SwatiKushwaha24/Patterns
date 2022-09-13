@@ -1,7 +1,6 @@
 n = int(input("Enter the number of lines: "))
-m = n
 for i in range(n):
-    for j in range(m):
+    for j in range(n):
         print("*", end = " ")
-    m = m -1
+    n = n - 1
     print()
